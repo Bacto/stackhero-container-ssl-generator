@@ -1,3 +1,5 @@
+LABEL version="1.0.0"
+
 FROM alpine:3.5
 
 RUN apk add --update
