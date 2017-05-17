@@ -16,7 +16,7 @@ sslCreate() {
 sslRenew() {
   while true
   do
-    certbot certonly -q -n -d ${domainsList}
+    certbot certonly -q -n --standalone -d ${domainsList}
     sleep 1d
   done
 }
