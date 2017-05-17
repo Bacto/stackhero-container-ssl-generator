@@ -22,4 +22,4 @@ sslRenew() {
 }
 
 sslCreate
-sslRenew &
+sslRenew
