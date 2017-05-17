@@ -1,7 +1,5 @@
 FROM alpine:3.5
 
-LABEL version="1.0.0"
-
 RUN apk add --update
 RUN apk add bash
 
